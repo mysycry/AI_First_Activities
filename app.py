@@ -16,6 +16,9 @@ import warnings
 from streamlit_option_menu import option_menu
 from streamlit_extras.mention import mention
 
+# Access the OpenAI API key from the secrets
+api_key = st.secrets["OPENAI_API_KEY"]
+
 warnings.filterwarnings("ignore")
 
 st.set_page_config(page_title="News Summarizer Tool", page_icon="", layout="wide")
@@ -89,7 +92,7 @@ Guidelines: Explain the relevance of the article in 1-2 sentences. This could re
 Driving the News (Key Events/Developments):
 
 Purpose: Summarize the core events, actions, or developments described in the article.
-Guidelines: Outline 3-5 key points or events in bullet form, presenting them in chronological or logical order. Each point should add unique information or detail that builds on the main story. Avoid excessive detail, but ensure each point is substantive.
+Guidelines: Outline 3-5 key points or events in bullet form, presenting them in chronological or logical order. Each point should add unique information and/or detail that builds on the main story. Avoid excessive detail, but ensure each point is substantive.
 Quote (Optional):
 
 Purpose: Add depth to the summary by including a relevant quote from a key figure involved in or commenting on the story.
@@ -110,7 +113,7 @@ Perspective: Use third-person perspective consistently, ensuring that the summar
 Example Summaries
 Example 1:
 
-Title: NScientists discover 80million-year-old 'fully intact' dinosaur eggs from previously-unknown species
+Title: Scientists discover 80million-year-old 'fully intact' dinosaur eggs from previously-unknown species
 
 
 The smallest fully intact dinosaur egg ever discovered has been unearthed in a remote area of China.
