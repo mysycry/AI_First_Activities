@@ -1,0 +1,31 @@
+Freight ID,Origin,Destination,Carrier,Freight Rate (USD),Departure Time,Transit Time (Hours),Available Seats,Freight Type
+F001,Los Angeles,New York,Global Freight,950,08:00,48,5,Standard
+F002,Miami,Chicago,Speedy Ship,700,09:30,36,8,Standard
+F003,Seattle,Dallas,Quick Logistics,820,10:45,40,4,Express
+F004,San Diego,Houston,CargoLink,860,13:20,44,6,Refrigerated
+F005,Denver,Philadelphia,FastTrack,900,07:15,50,7,Standard
+F006,Atlanta,Orlando,MoveIT,620,06:00,12,10,Standard
+F007,Boston,Nashville,GoLogistics,800,11:10,24,9,Standard
+F008,Detroit,Kansas City,SkyCargo,750,15:30,28,5,Express
+F009,Phoenix,San Francisco,CargoPlus,670,14:45,8,12,Standard
+F010,Portland,Las Vegas,Global Freight,620,05:30,10,3,Standard
+F011,Dallas,Miami,Speedy Ship,890,07:00,40,6,Refrigerated
+F012,Houston,New Orleans,Quick Logistics,550,12:00,6,4,Standard
+F013,San Jose,Austin,CargoLink,820,18:20,42,8,Express
+F014,Orlando,Atlanta,FastTrack,580,09:15,10,7,Standard
+F015,Chicago,Minneapolis,MoveIT,650,13:45,16,5,Standard
+F016,New York,Baltimore,GoLogistics,480,11:30,4,15,Express
+F017,Las Vegas,Denver,SkyCargo,710,06:45,12,6,Refrigerated
+F018,Kansas City,Phoenix,CargoPlus,830,15:00,36,8,Standard
+F019,Austin,Seattle,Global Freight,970,05:00,48,4,Standard
+F020,New Orleans,Los Angeles,Speedy Ship,880,14:00,44,3,Express
+F021,Philadelphia,Miami,Quick Logistics,920,07:30,38,5,Refrigerated
+F022,Nashville,Boston,CargoLink,800,08:30,20,6,Standard
+F023,San Francisco,Portland,FastTrack,600,10:15,12,10,Standard
+F024,Baltimore,Detroit,MoveIT,700,09:45,18,8,Express
+F025,Las Vegas,Chicago,GoLogistics,930,06:15,48,5,Refrigerated
+F026,Phoenix,Atlanta,SkyCargo,850,15:10,36,9,Standard
+F027,Denver,San Diego,CargoPlus,720,12:30,22,7,Express
+F028,Dallas,Orlando,Global Freight,650,05:20,16,10,Standard
+F029,Miami,Las Vegas,Speedy Ship,790,14:50,34,6,Refrigerated
+F030,New York,San Jose,Quick Logistics,1000,09:00,50,3,Standard
